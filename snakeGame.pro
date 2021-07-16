@@ -18,9 +18,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+        qmlstorage.cpp
 
-HEADERS +=
+HEADERS += \
+    qmlstorage.h
 
 FORMS +=
 
@@ -28,4 +30,7 @@ RESOURCES += \
     resources.qrc
 
 DISTFILES += \
+    Field.qml \
+    Fruit.qml \
+    Snake.qml \
     main.qml

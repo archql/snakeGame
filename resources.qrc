@@ -1,5 +1,8 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>Field.qml</file>
+        <file>Fruit.qml</file>
+        <file>Snake.qml</file>
     </qresource>
 </RCC>

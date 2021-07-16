@@ -6,8 +6,12 @@
 #include <QString>
 #include <QDebug>
 
+#include <qmlstorage.h>
+
 int main(int argc, char *argv[])
 {
+    qmlRegisterType<QmlStorage>("qmlstorage",1,0,"QmlStorage");
+
     QGuiApplication a(argc, argv);
 
     QQmlApplicationEngine engine;
